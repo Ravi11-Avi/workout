@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effect Cards Swiper</title>
+    <link rel="stylesheet" href="../assests/css/card.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <h1>🔥 Chest, Triceps & Abs</h1>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <h2>1. Push-up</h2>
+                <img src="../image/gif/rest.gif" alt="">
+                <p>4 sets of 20 reps</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 4</span><br>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper with EffectCards
+        const swiper = new Swiper('.swiper', {
+            effect: 'cards',
+            grabCursor: true,
+            slidesPerView: 1,
+            loop: false,
+            modules: [],
+        });
+    </script>
+</body>
+</html>
