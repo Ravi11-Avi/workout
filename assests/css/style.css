@@ -28,7 +28,7 @@ body {
 
 .diet {
     width: 50%;
-    height: 100%; /* Reduced height to prevent overflow */
+    height: 70%; /* Reduced height to prevent overflow */
     background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ body {
 .diet a {
     text-decoration: none;
     color: white;
-    font-size: 40px;
+    font-size: 70px;
     font-weight: bold;
     padding: 100% 10%;
 }
@@ -47,7 +47,7 @@ body {
 /* Workout Section */
 .workout {
     width: 50%;
-    height: 100%; /* Same height as diet */
+    height: 70%; /* Same height as diet */
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Space between Home & Gym */
@@ -62,7 +62,7 @@ body {
     border-radius: 10px;
     text-decoration: none;
     list-style: none;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
     width: 100%;
     margin: 10px 0;
@@ -74,7 +74,7 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
