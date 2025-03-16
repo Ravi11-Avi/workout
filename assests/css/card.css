@@ -40,7 +40,7 @@ h1 {
 
 .swiper-slide {
     width: 800px !important;
-   
+    height: 1600px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
