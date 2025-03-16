@@ -75,8 +75,14 @@ h1 {
 }
 
 .setcount {
+    
     margin-bottom: 35px;
     accent-color: #ff6f61; /* Custom checkbox color */
+    width: 30px; /* Set the width of the checkbox */
+    height: 30px; /* Set the height of the checkbox */
+    margin-right: 20px;
+    transform: scale(1.5); /* Scale the checkbox */
+    transform-origin: center;
 }
 span {
     font-size: 60px !important;
