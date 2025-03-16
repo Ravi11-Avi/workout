@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 85px;
     margin-bottom: 20px;
     text-align: center;
     color: #cfe7ec; /* Vibrant heading color */
@@ -19,9 +19,9 @@ h1 {
 }
 
 .swiper {
-    width: 300px; /* Adjust width as needed */
-    height: 500px; /* Adjust height as needed */
-    margin-top: 20px;
+    width: 700px; /* Adjust width as needed */
+    height: 1300px; /* Adjust height as needed */
+    margin-top: 80px;
 }
 
 .swiper-slide {
@@ -31,9 +31,9 @@ h1 {
     align-items: center;
     background: #f5f5f5ef; /* Gradient background for cards */
     color: #272626; /* Dark text for contrast */
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow for depth */
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
@@ -44,21 +44,21 @@ h1 {
 }
 
 .swiper-slide h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
+    font-size:90px;
+    margin-bottom: 3;
     color: #1e3c72; /* Dark blue for headings */
 }
 
 .swiper-slide img {
     width: 90%;
-    border-radius: 15px;
-    margin-bottom: 15px;
+    border-radius: 25px;
+    margin-bottom: 35px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for images */
 }
 
 .swiper-slide p {
-    font-size: 1.2rem;
-    margin-bottom: 15px;
+    font-size: 50px;
+    margin-bottom: 35px;
     color: #555; /* Slightly darker text for readability */
 }
 
@@ -69,11 +69,11 @@ h1 {
 }
 
 .setcount {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     accent-color: #ff6f61; /* Custom checkbox color */
 }
 span {
-    font-size: 1.2rem !important;
-    margin-left: 10px;
+    font-size: 60px !important;
+    margin-left: 30px;
     color: #333; /* Dark text for checkboxes */
 }
