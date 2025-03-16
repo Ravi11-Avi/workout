@@ -41,7 +41,7 @@ h1 {
     color: #272626; /* Dark text for contrast */
     border-radius: 30px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow for depth */
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
