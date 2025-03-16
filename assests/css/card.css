@@ -25,9 +25,11 @@ h1 {
 }
 
 .swiper {
-    width: 96%; /* Adjust width as needed */
-    /* Adjust height as needed */
+    width: 96%; /* Adjusted width */
+    max-width: 800px; /* Set a maximum width to prevent breaking */
     margin-top: 90px;
+    
+    overflow: hidden;
 }
 
 .swiper-slide {
@@ -39,7 +41,7 @@ h1 {
     color: #272626; /* Dark text for contrast */
     border-radius: 30px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow for depth */
-    padding: 50px;
+    padding: 30px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
