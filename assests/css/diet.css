@@ -11,10 +11,10 @@ body{
     column-gap: 4%;
 }
 .mealitem{
-    padding: 10px;
+    padding: 30px;
     border: 2px solid black;
     margin-top: 4%;
-    width: 300px;
+    width: 600px;
    height: fit-content;
    border-radius: 30px;
    color: white;
