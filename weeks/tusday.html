@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effect Cards Swiper</title>
+    <link rel="stylesheet" href="../assests/css/card.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <h1>💪 Back, Biceps & Abs</h1>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <!-- Pull-Ups -->
+            <div class="swiper-slide">
+                <h2>1. Pull-Ups</h2>
+                <img src="../image/gif/pull-up.gif" alt="Pull-Ups">
+                <p>Use a bar/tree branch – 3 sets of 8-12 reps</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Chin-Ups -->
+            <div class="swiper-slide">
+                <h2>2. Chin-Ups</h2>
+                <img src="../image/gif/chin-ups.gif" alt="Chin-Ups">
+                <p>3 sets of 8 reps (Biceps)</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Superman Hold -->
+            <div class="swiper-slide">
+                <h2>3. Superman Hold</h2>
+                <img src="../image/gif/superman.gif" alt="Superman Hold">
+                <p>3 sets of 30 sec (Lower back)</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Bodyweight Rows -->
+            <div class="swiper-slide">
+                <h2>4. Bodyweight Rows</h2>
+                <img src="../image/gif/bodyweight rows.gif" alt="Bodyweight Rows">
+                <p>Use a sturdy table – 3 sets of 12 reps</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Hanging Leg Raises -->
+            <div class="swiper-slide">
+                <h2>5. Hanging Leg Raises</h2>
+                <img src="../image/gif/Hanging-Knee-Raises.gif" alt="Hanging Leg Raises">
+                <p>3 sets of 10 reps</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Bicycle Crunches -->
+            <div class="swiper-slide">
+                <h2>6. Bicycle Crunches</h2>
+                <img src="../image/gif/bycycle.gif" alt="Bicycle Crunches">
+                <p>3 sets of 15 reps</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Side Plank -->
+            <div class="swiper-slide">
+                <h2>7. Side Plank</h2>
+                <img src="../image/gif/sideplank.jpg" alt="Side Plank">
+                <p>Both Sides – 2 sets of 30 sec</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper with EffectCards
+        const swiper = new Swiper('.swiper', {
+            effect: 'cards',
+            grabCursor: true,
+            slidesPerView: 1,
+            loop: false,
+            modules: [],
+        });
+    </script>
+</body>
+</html>

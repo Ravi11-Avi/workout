@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effect Cards Swiper</title>
+    <link rel="stylesheet" href="../assests/css/card.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <h1>🏋️ Legs, Shoulders & Abs</h1>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <!-- Squats -->
+            <div class="swiper-slide">
+                <h2>1. Squats</h2>
+                <img src="../image/gif/squard.gif" alt="Squats">
+                <p>4 sets of 20 reps</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 4</span><br>
+                </div>
+            </div>
+            <!-- Jump Squats -->
+            <div class="swiper-slide">
+                <h2>2. Jump Squats</h2>
+                <img src="../image/gif/jump squard.avif" alt="Jump Squats">
+                <p>3 sets of 15 reps</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Lunges -->
+            <div class="swiper-slide">
+                <h2>3. Lunges</h2>
+                <img src="../image/gif/lunges.avif" alt="Lunges">
+                <p>3 sets of 10 reps per leg</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Calf Raises -->
+            <div class="swiper-slide">
+                <h2>4. Calf Raises</h2>
+                <img src="../image/gif/calfraise.gif" alt="Calf Raises">
+                <p>3 sets of 20 reps</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Pike Push-Ups -->
+            <div class="swiper-slide">
+                <h2>5. Pike Push-Ups</h2>
+                <img src="../image/gif/pike punch.gif" alt="Pike Push-Ups">
+                <p>3 sets of 12 reps (Shoulders)</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Wall Handstand Hold -->
+            <div class="swiper-slide">
+                <h2>6. Wall Handstand Hold</h2>
+                <img src="../image/gif/wall handsome hold.webp" alt="Wall Handstand Hold">
+                <p>3 sets of 30 sec</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Flutter Kicks -->
+            <div class="swiper-slide">
+                <h2>7. Flutter Kicks</h2>
+                <img src="../image/gif/flutter-kicks-animated.gif" alt="Flutter Kicks">
+                <p>3 sets of 20 reps</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+            <!-- Plank with Shoulder Tap -->
+            <div class="swiper-slide">
+                <h2>8. Plank with Shoulder Tap</h2>
+                <img src="../image/gif/planksolder.gif" alt="Plank with Shoulder Tap">
+                <p>3 sets of 12 reps</p>
+                <div class="sets">
+                    <input type="checkbox" class="setcount"><span>Set 1</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 2</span><br>
+                    <input type="checkbox" class="setcount"><span>Set 3</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper with EffectCards
+        const swiper = new Swiper('.swiper', {
+            effect: 'cards',
+            grabCursor: true,
+            slidesPerView: 1,
+            loop: false,
+            modules: [],
+        });
+    </script>
+</body>
+</html>
