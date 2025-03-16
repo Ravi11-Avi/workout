@@ -14,8 +14,8 @@ body{
     padding: 10px;
     border: 2px solid rgb(255, 255, 255);
     margin-top: 4%;
-    width: 300px;
-   height:300px;
+    width: 400px;
+   height: 400px;
    justify-content: center;
    align-items: center;
    display: flex;
@@ -31,5 +31,5 @@ body{
 .day a{
  text-decoration: none;
  color: white; 
- font-size: 20px;  
+ font-size: 50px;  
 }
