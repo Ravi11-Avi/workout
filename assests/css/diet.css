@@ -5,16 +5,18 @@ body{
     background-size: cover;
 }
 .meal{
-    margin: 0  4% 4% 4%;
+    margin: 0  10% 5% ;
     display: flex;
     flex-wrap: wrap;
     column-gap: 4%;
+   
 }
 .mealitem{
     padding: 30px;
     border: 2px solid black;
     margin-top: 4%;
-    width: 700px;
+    font-size: 30px;
+    width: 800px;
    height: fit-content;
    border-radius: 30px;
    color: white;
