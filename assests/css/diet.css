@@ -1,0 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url('../../image/meal.avif');
+    background-size: cover;
+}
+.meal{
+    margin: 0  4% 4% 4%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4%;
+}
+.mealitem{
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 4%;
+    width: 300px;
+   height: fit-content;
+   border-radius: 30px;
+   color: white;
+   background: rgba(0, 0, 0, 0.7);
+   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7), 0 16px 56px rgba(0, 0, 0, 0.7), 0 24px 80px rgba(0, 0, 0, 0.7);
+
+}

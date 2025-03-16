@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+body {
+    background: url('../../image/im.webp');
+    background-size: cover;
+}
+
+.time {
+    width: 100%;
+    height: 90px;
+}
+
+.structure {
+    width: 100%;
+    height: fit-content; /* Ensure it fits within the screen */
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 30px; /* Space between Diet and Workout */
+    padding: 3%;
+    box-sizing: border-box;
+    align-items: center; /* Center content vertically */
+}
+
+.diet {
+    width: 50%;
+    height: 400px; /* Reduced height to prevent overflow */
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.diet a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 100% 10%;
+}
+
+/* Workout Section */
+.workout {
+    width: 50%;
+    height: 400px; /* Same height as diet */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between Home & Gym */
+}
+
+.home,
+.gym {
+    flex: 1; /* Take equal space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.home a,
+.gym a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.home a li,
+.gym a li {
+    margin: 5px 0; /* Space between text and icon */
+}
+
+
+.tip {
+    font-size: 12px;
+    margin-top: 10px; /* Add space between lines */
+    display: block; /* Ensure each tip is on a new line */
+}
