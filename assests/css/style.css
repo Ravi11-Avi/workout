@@ -17,7 +17,7 @@ body {
 
 .structure {
     width: 100%;
-    height: fit-content; /* Ensure it fits within the screen */
+    height: 100vh; /* Ensure it fits within the screen */
     display: flex;
     flex-wrap: nowrap;
     column-gap: 30px; /* Space between Diet and Workout */
@@ -28,7 +28,7 @@ body {
 
 .diet {
     width: 50%;
-    height: 400px; /* Reduced height to prevent overflow */
+    height: 100%; /* Reduced height to prevent overflow */
     background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@ body {
 /* Workout Section */
 .workout {
     width: 50%;
-    height: 400px; /* Same height as diet */
+    height: 100%; /* Same height as diet */
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Space between Home & Gym */
